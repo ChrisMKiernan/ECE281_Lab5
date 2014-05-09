@@ -21,3 +21,7 @@ The previous leads me to a suggestion for the PRISM simulator: include a warning
 ![alt text](http://i.imgur.com/1vrppAQ.jpg "The aforementioned flowchart of the assembly code")
 
 This is the flowchart of the code. B1 is considered the LSB and B2 is considered the MSB (least- and most-significant "digit" may be more appropriate here). The code is broken into two main components: add and subtract. To test if I needed to move to the MSB, I added 6 to the digit. This is becasue the code needed to move to the next bit if the digit was "A" (or -6 in binary). That way, I could add 6 and use a "jump if zero" command if the number got to "A." In the case of subtraction, I could simply test if the digit was 0, in which case I would reassign it the value of 9 and most to the MSB, as you can see in the flowchart. 
+
+## Functionality
+
+Both programs, although uploaded late, were functional and checked on their respective due days in class (M33 and M35). Part 1 was checked by Dr Neebel, and Part 2 was checked by Capt Silva.
